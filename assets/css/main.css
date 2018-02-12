@@ -2012,6 +2012,31 @@
 				background-color: #439aea;
 			}
 
+			input[type="submit"].front,
+			input[type="reset"].front,
+			input[type="button"].front,
+			button.front,
+			.button.front {
+				background-color: #5AA6ED;
+				color: #ffffff !important;
+			}
+
+				input[type="submit"].front:hover,
+				input[type="reset"].front:hover,
+				input[type="button"].front:hover,
+				button.front:hover,
+				.button.front:hover {
+					background-color: #000;
+				}
+
+				input[type="submit"].front:active,
+				input[type="reset"].front:active,
+				input[type="button"].front:active,
+				button.front:active,
+				.button.front:active {
+					background-color: #000;
+				}
+
 /* Form */
 
 	form {
@@ -2298,6 +2323,14 @@
 		}
 
 /* Image */
+
+.image.officer img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	width: 90%;
+}
 
 	.image {
 		border: 0;
