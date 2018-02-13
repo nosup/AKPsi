@@ -59,25 +59,20 @@
 /* Rush Video*/
 
 	#rushvid {
-		display: -ms-flexbox;
-		border-top: 0;
-		min-height: 100vh;
-		height: 100vh !important;
+		height: 100vh;
 		width: 100%;
-		position: relative;
-		text-align: center;
 		overflow: hidden;
+		pointer-events: all !important;
 	}
 
 	* { box-sizing: border-box; }
-	.video-background {
+	.video-rush {
 	  background: #000;
 	  position: fixed;
 	  top: 0; right: 0; bottom: 0; left: 0;
-	  z-index: -99;
+	  z-index: 0;
 	}
-	.video-foreground,
-	.video-background iframe {
+	.video-rush iframe {
 	  position: absolute;
 	  top: 0;
 	  left: 0;
@@ -3800,7 +3795,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner.png");
+		background-image: url("../../images/.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
