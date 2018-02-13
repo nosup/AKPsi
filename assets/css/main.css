@@ -2341,9 +2341,15 @@
 		.image img {
 			display: block;
 		}
+		.image.prof {
+			max-width: 40%;
+		}
 
 		.image.left, .image.right {
 			max-width: 40%;
+		}
+		.image.left.rush, .image.right.rush {
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
@@ -3745,7 +3751,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
